@@ -1,0 +1,69 @@
+/**
+ * WP Shala SCSS
+ */
+
+
+/* Typography */
+
+body {
+	h1, h2 {
+		font-size: 20px;
+	}
+}
+
+
+
+/* Portfolio */
+
+.project_details ul {
+	margin-top: 20px;
+}
+
+.project img {
+	border: 1px solid green;
+	margin: 10px;
+	/*max-width: 300px;*/
+	padding: 10px;
+}
+
+.project-item {
+	/*float: left;
+	width: 300px;*/
+	/*height: 50px;*/
+	background: #e6e5e4;
+	border: 2px solid #b6b5b4;
+}
+
+/* Buttons */
+
+
+/* General Layout */
+
+/* Grid */
+
+
+/* Header */
+
+
+/* Nav */
+
+
+/* submenu */
+
+
+/* Footer Menu */
+
+
+/* Responsive */
+
+
+@media print {
+  table {width: 100%!important;}
+}
+
+/* Plugins */
+
+#wpupg-grid-projects {
+	width: 100%!important;
+}
+

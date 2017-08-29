@@ -1,16 +1,17 @@
-/**!
-Theme Name: WPGulpTheme
-Theme URI: https://github.com/ahmadawais/WPGulpTheme
-Description: A theme to demonstrate simplest implementation of WPGulp Boilerplate.
-Version: 1.0
-Author: Ahmad Awais, mrahmadawais
-Author URI: http://AhmadAwais.com/
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: gulp, boilerpate
-Text Domain: wpgulp-theme
-*/
+/*
+Theme Name: wpshala
+Author: Yan White
+Author URI: http://www.yanwhite.com
+Template: Genesis
+License: GNU General Public License
+License URI: licence/GPL.txt
 
+This is a placeholder file required by WordPress, so do not delete it.
+
+*/
+@import url(../genesis/style.css);
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+ 
 /* ----------------------------------------------------------------------------
  * Mixins & Variables
  * ------------------------------------------------------------------------- */
@@ -33,5 +34,8 @@ Text Domain: wpgulp-theme
 
 /* Base */
 @import "partials/base";
+
+/* WPShala */
+@import "partials/wpshala";
 
 
